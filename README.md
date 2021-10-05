@@ -1,2 +1,2 @@
 # braineumDAO
-Governance for a revolutionary, A.I.-driven, crypto-based new world called BraineumVerse.
+Governance for BraineumVerse, a futuristic, A.I.-driven, crypto-based new world.
