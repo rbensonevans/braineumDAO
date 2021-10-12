@@ -1,0 +1,239 @@
+displayMint = async () => {
+    console.log('display-mint-link clicked');
+    let displayMintLink = document.querySelector("#DisplayMintLink");
+    let content = `
+        <h1>This is the mint </h1>
+
+    `
+    displayMintLink.innerHTML += content;
+
+}
+
+
+displayTreasury = async () => {
+    console.log('display-treasury-link clicked');
+    let displayTreasuryLink = document.querySelector("#DisplayTreasuryLink");
+    let content = `
+        <h1>This is the treasury </h1>
+
+    `
+    displayTreasuryLink.innerHTML += content;
+
+}
+
+
+displayArbitration = async () => {
+    console.log('display-arbitration-link clicked');
+    let displayArbitrationLink = document.querySelector("#DisplayArbitrationLink");
+    let content = `
+        <h1>This is the arbitration </h1>
+
+    `
+    displayArbitrationLink.innerHTML += content;
+
+}
+
+
+displayAI = async () => {
+    console.log('display-ai-link clicked');
+    let displayAILink = document.querySelector("#DisplayAILink");
+    let content = `
+        <h1>This is the ai </h1>
+
+    `
+    displayAILink.innerHTML += content;
+
+}
+
+
+displayBraineumVerse = async () => {
+    console.log('display-braineumverse-link clicked');
+    let displayBraineumVerseLink = document.querySelector("#DisplayBraineumVerseLink");
+    let content = `
+        <h1>This is the braineumverse </h1>
+
+    `
+    displayBraineumVerseLink.innerHTML += content;
+
+}
+
+
+displayDeFi = async () => {
+    console.log('display-defi-link clicked');
+    let displayDeFiLink = document.querySelector("#DisplayDeFiLink");
+    let content = `
+        <h1>This is the defi </h1>
+
+    `
+    displayDeFiLink.innerHTML += content;
+
+}
+
+
+displayToken = async () => {
+    console.log('display-token-link clicked');
+    let displayTokenLink = document.querySelector("#DisplayTokenLink");
+    let content = `
+        <h1>This is the token </h1>
+
+    `
+    displayTokenLink.innerHTML += content;
+
+}
+
+
+displayNFT = async () => {
+    console.log('display-nft-link clicked');
+    let displayNFTLink = document.querySelector("#DisplayNFTLink");
+    let content = `
+        <h1>This is the nft </h1>
+
+    `
+    displayNFTLink.innerHTML += content;
+
+}
+
+
+
+displayGameFi = async () => {
+    console.log('display-gamefi-link clicked');
+    let displayGameFiLink = document.querySelector("#DisplayGameFiLink");
+    let content = `
+        <h1>This is the gamefi </h1>
+
+    `
+    displayGameFiLink.innerHTML += content;
+
+}
+
+
+displayCountry = async () => {
+    console.log('display-country-link clicked');
+    let displayCountryLink = document.querySelector("#DisplayCountryLink");
+    let content = `
+        <h1>This is the country </h1>
+
+    `
+    displayCountryLink.innerHTML += content;
+
+}
+
+
+
+displayMyStats = async () => {
+    console.log('display-mystats-link clicked');
+    let displayMyStatsLink = document.querySelector("#DisplayMyStatsLink");
+    let content = `
+        <h1>This is the mystats </h1>
+
+    `
+    displayMyStatsLink.innerHTML += content;
+
+}
+
+
+
+displayHotIssues = async () => {
+    console.log('display-hotissues-link clicked');
+    let displayHotIssuesLink = document.querySelector("#DisplayHotIssuesLink");
+    let content = `
+        <h1>This is the hotissues </h1>
+
+    `
+    displayHotIssuesLink.innerHTML += content;
+
+}
+
+
+displayVoteTrades = async () => {
+    console.log('display-votetrades-link clicked');
+    let displayVoteTradesLink = document.querySelector("#DisplayVoteTradesLink");
+    let content = `
+        <h1>This is the votetrades </h1>
+
+    `
+    displayVoteTradesLink.innerHTML += content;
+
+}
+
+
+
+
+
+if (document.querySelector('#display-votetrades-link') != null) {
+    document.querySelector('#display-votetrades-link').onclick = displayVoteTrades;
+}
+
+
+
+if (document.querySelector('#display-hotissues-link') != null) {
+    document.querySelector('#display-hotissues-link').onclick = displayHotIssues;
+}
+
+
+if (document.querySelector('#display-mystats-link') != null) {
+    document.querySelector('#display-mystats-link').onclick = displayMyStats;
+}
+
+
+if (document.querySelector('#display-country-link') != null) {
+    document.querySelector('#display-country-link').onclick = displayCountry;
+}
+
+
+
+if (document.querySelector('#display-gamefi-link') != null) {
+    document.querySelector('#display-gamefi-link').onclick = displayGameFi;
+}
+
+
+
+
+if (document.querySelector('#display-nft-link') != null) {
+    document.querySelector('#display-nft-link').onclick = displayNFT;
+}
+
+
+
+if (document.querySelector('#display-token-link') != null) {
+    document.querySelector('#display-token-link').onclick = displayToken;
+}
+
+
+
+if (document.querySelector('#display-defi-link') != null) {
+    document.querySelector('#display-defi-link').onclick = displayDeFi;
+}
+
+
+
+if (document.querySelector('#display-braineumverse-link') != null) {
+    document.querySelector('#display-braineumverse-link').onclick = displayBraineumVerse;
+}
+
+
+
+
+if (document.querySelector('#display-ai-link') != null) {
+    document.querySelector('#display-ai-link').onclick = displayAI;
+}
+
+
+
+if (document.querySelector('#display-arbitration-link') != null) {
+    document.querySelector('#display-arbitration-link').onclick = displayArbitration;
+}
+
+
+
+if (document.querySelector('#display-treasury-link') != null) {
+    document.querySelector('#display-treasury-link').onclick = displayTreasury;
+}
+
+
+
+
+
+if (document.querySelector('#display-mint-link') != null) {
+    document.querySelector('#display-mint-link').onclick = displayMint;
+}

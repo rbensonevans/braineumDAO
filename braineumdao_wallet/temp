@@ -1,0 +1,695 @@
+displayMint = async () => {
+    console.log('display-mint-link clicked');
+    let displayMintLink = document.querySelector("#DisplayMintLink");
+    let content = `
+        <h1>This is the mint </h1>
+
+    `
+    displayMintLink.innerHTML += content;
+
+}
+
+
+displayTreasury = async () => {
+    console.log('display-treasury-link clicked');
+    let displayTreasuryLink = document.querySelector("#DisplayTreasuryLink");
+    let content = `
+        <h1>This is the treasury </h1>
+
+    `
+    displayTreasuryLink.innerHTML += content;
+
+}
+
+
+displayArbitration = async () => {
+    console.log('display-arbitration-link clicked');
+    let displayArbitrationLink = document.querySelector("#DisplayArbitrationLink");
+    let content = `
+        <h1>This is the arbitration </h1>
+
+    `
+    displayArbitrationLink.innerHTML += content;
+
+}
+
+
+displayAI = async () => {
+    console.log('display-ai-link clicked');
+    let displayAILink = document.querySelector("#DisplayAILink");
+    let content = `
+        <h1>This is the ai </h1>
+
+    `
+    displayAILink.innerHTML += content;
+
+}
+
+
+displayBraineumVerse = async () => {
+    console.log('display-braineumverse-link clicked');
+    let displayBraineumVerseLink = document.querySelector("#DisplayBraineumVerseLink");
+    let content = `
+        <h1>This is the braineumverse </h1>
+
+    `
+    displayBraineumVerseLink.innerHTML += content;
+
+}
+
+
+displayDeFi = async () => {
+    console.log('display-defi-link clicked');
+    let displayDeFiLink = document.querySelector("#DisplayDeFiLink");
+    let content = `
+        <h1>This is the defi </h1>
+
+    `
+    displayDeFiLink.innerHTML += content;
+
+}
+
+
+displayToken = async () => {
+    console.log('display-token-link clicked');
+    let displayTokenLink = document.querySelector("#DisplayTokenLink");
+    let content = `
+        <h1>This is the token </h1>
+
+    `
+    displayTokenLink.innerHTML += content;
+
+}
+
+
+displayNFT = async () => {
+    console.log('display-nft-link clicked');
+    let displayNFTLink = document.querySelector("#DisplayNFTLink");
+    let content = `
+        <h1>This is the nft </h1>
+
+    `
+    displayNFTLink.innerHTML += content;
+
+}
+
+
+
+displayGameFi = async () => {
+    console.log('display-gamefi-link clicked');
+    let displayGameFiLink = document.querySelector("#DisplayGameFiLink");
+    let content = `
+        <h1>This is the gamefi </h1>
+
+    `
+    displayGameFiLink.innerHTML += content;
+
+}
+
+
+displayCountry = async () => {
+    console.log('display-country-link clicked');
+    let displayCountryLink = document.querySelector("#DisplayCountryLink");
+    let content = `
+        <h1>This is the country </h1>
+
+    `
+    displayCountryLink.innerHTML += content;
+
+}
+
+
+
+displayMyStats = async () => {
+    console.log('display-mystats-link clicked');
+    let displayMyStatsLink = document.querySelector("#DisplayMyStatsLink");
+    let content = `
+        <h1>This is the mystats </h1>
+
+    `
+    displayMyStatsLink.innerHTML += content;
+
+}
+
+
+
+displayHotIssues = async () => {
+    console.log('display-hotissues-link clicked');
+    let displayHotIssuesLink = document.querySelector("#DisplayHotIssuesLink");
+    let content = `
+        <h1>This is the hotissues </h1>
+
+    `
+    displayHotIssuesLink.innerHTML += content;
+
+}
+
+
+displayVoteTrades = async () => {
+    console.log('display-votetrades-link clicked');
+    let displayVoteTradesLink = document.querySelector("#DisplayVoteTradesLink");
+    let content = `
+        <h1>This is the votetrades </h1>
+
+    `
+    displayVoteTradesLink.innerHTML += content;
+
+}
+
+
+
+
+
+if (document.querySelector('#display-votetrades-link') != null) {
+    document.querySelector('#display-votetrades-link').onclick = displayVoteTrades;
+}
+
+
+
+if (document.querySelector('#display-hotissues-link') != null) {
+    document.querySelector('#display-hotissues-link').onclick = displayHotIssues;
+}
+
+
+if (document.querySelector('#display-mystats-link') != null) {
+    document.querySelector('#display-mystats-link').onclick = displayMyStats;
+}
+
+
+if (document.querySelector('#display-country-link') != null) {
+    document.querySelector('#display-country-link').onclick = displayCountry;
+}
+
+
+
+if (document.querySelector('#display-gamefi-link') != null) {
+    document.querySelector('#display-gamefi-link').onclick = displayGameFi;
+}
+
+
+
+
+if (document.querySelector('#display-nft-link') != null) {
+    document.querySelector('#display-nft-link').onclick = displayNFT;
+}
+
+
+
+if (document.querySelector('#display-token-link') != null) {
+    document.querySelector('#display-token-link').onclick = displayToken;
+}
+
+
+
+if (document.querySelector('#display-defi-link') != null) {
+    document.querySelector('#display-defi-link').onclick = displayDeFi;
+}
+
+
+
+if (document.querySelector('#display-braineumverse-link') != null) {
+    document.querySelector('#display-braineumverse-link').onclick = displayBraineumVerse;
+}
+
+
+
+
+if (document.querySelector('#display-ai-link') != null) {
+    document.querySelector('#display-ai-link').onclick = displayAI;
+}
+
+
+
+if (document.querySelector('#display-arbitration-link') != null) {
+    document.querySelector('#display-arbitration-link').onclick = displayArbitration;
+}
+
+
+
+if (document.querySelector('#display-treasury-link') != null) {
+    document.querySelector('#display-treasury-link').onclick = displayTreasury;
+}
+
+
+
+
+
+if (document.querySelector('#display-mint-link') != null) {
+    document.querySelector('#display-mint-link').onclick = displayMint;
+}
+
+
+<!-- -->
+        <h2>Transactions</h2>
+        <div id="tableOfTransactions" class="table-responsive">
+        </div>
+
+        <h2>Balances</h2>
+        <div id="userBalances" class="table-responsive">
+        </div>
+
+        <h2>NFTs</h2>
+        <div id="tableOfNFTs" class="table-responsive d-flex flex-wrap">
+        </div>
+ <!-- -->
+
+ <!-- -->
+        <h2>Home</h2>
+        <div id="DisplayHomeLink" class="table-responsive">
+        </div>
+        <h2>Genesis</h2>
+        <div id="DisplayGenesisLink" class="table-responsive">
+        </div>
+        <h2>Organizer</h2>
+        <div id="DisplayOrganizerLink" class="table-responsive">
+        </div>
+        <h2>DisplayMintLink</h2>
+        <div id="DisplayMintLink" class="table-responsive">
+        </div>
+        <h2>DisplayTreasuryLink</h2>
+        <div id="DisplayTreasuryLink" class="table-responsive">
+        </div>
+        <h2>DisplayArbitrationLink</h2>
+        <div id="DisplayArbitrationLink" class="table-responsive">
+        </div>
+        <h2>DisplayAILink</h2>
+        <div id="DisplayAILink" class="table-responsive">
+        </div>
+        <h2>DisplayBraineumVerseLink</h2>
+        <div id="DisplayBraineumVerseLink" class="table-responsive">
+        </div>
+        <h2>DisplayDeFiLink</h2>
+        <div id="DisplayDeFiLink" class="table-responsive">
+        </div>
+        <h2>DisplayTokenLink</h2>
+        <div id="DisplayTokenLink" class="table-responsive">
+        </div>
+        <h2>DisplayNFTLinK</h2>
+        <div id="DisplayNFTLink" class="table-responsive">
+        </div>
+        <h2>DisplayGameFiLink</h2>
+        <div id="DisplayGameFiLink" class="table-responsive">
+        </div>
+        <h2>DisplayCountryLink</h2>
+        <div id="DisplayCountryLink" class="table-responsive">
+        </div>
+        <h2>DisplayMyStatsLink</h2>
+        <div id="DisplayMyStatsLink" class="table-responsive">
+        </div>
+        <h2>DisplayHotIssuesLink</h2>
+        <div id="DisplayHotIssuesLink" class="table-responsive">
+        </div>
+        <h2>DisplayVoteTradesLink</h2>
+        <div id="DisplayVoteTradesLink" class="table-responsive">
+        </div>
+      <-- -->
+
+
+
+====
+From DisplayDefi
+
+let dao_supply = "5,000,000";
+    let content = 
+    `
+    <table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Breakdown</th>
+            <th scope="col">Balance</th>
+            <th scope="col">Percent</th>           
+            <th scope="col">Chain</th>           
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Total Supply</td>
+            <td>${dao_supply + " BRVT"}</td>
+            <td>100%</td>
+            <td>Rinkeby</td>
+        </tr>
+    </tbody>
+    </table>
+    ` 
+
+    ======
+
+    From Genesis page:
+
+       <table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Issue</th>
+            <th scope="col">Vote Count</th>
+            <th scope="col">User</th>
+            <th scope="col">Begin Date</th>
+            <th scope="col">End Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td>increase BVDAOtokens</td>
+        <td>90,000</td>
+        <td>Joe schmoe</td>
+        <td>1/1/2021</td>
+        <td>12/31/2021</td>
+        </tr>
+        <tr>
+        <td>increase BVDAOtokens</td>
+        <td>90,000</td>
+        <td>Joe schmoe</td>
+        <td>1/1/2021</td>
+        <td>12/31/2021</td>
+        </tr>
+        <tr>
+        <td>increase BVDAOtokens</td>
+        <td>90,000</td>
+        <td>Joe schmoe</td>
+        <td>1/1/2021</td>
+        <td>12/31/2021</td>
+        </tr>
+    </tbody>
+    </table>
+====
+
+content += `
+    <h6>Decisions</h6>
+    <p>No decisions or actions taken.</p>
+
+    <h6>Events</h6>
+    <p>No events scheduled.</p>
+
+    <h5>OrganizerDAO</h5>
+    <p>The Head DAO at the adminstrative level.</p>
+
+    <h6>MintDAO</h6>
+    <p>Handles issues with the minting of new tokens.</p>
+
+    <h6>TreasuryDAO</h6>
+    <p>Handles financial issues within and between DAOs.<p>
+
+    <h6>ArbitrationDAO</h6>
+    <p>Handles conflicts within and between DAOs.<p>
+
+    <h6>CountryDAO</h6>
+    <p>Handles matters and issues across different countries.</p>
+
+    =====
+
+    Original Moralis code in main.js
+
+    /*
+renderContent = (element) => {
+    let all_elements = 
+    [
+        '#DisplayHomeLink',
+        '#DisplayGenesisLink',
+        '#DisplayOrganizerLink',
+        '#DisplayMintLink',
+        '#DisplayTreasuryLink',
+        '#DisplayArbitrationLink',
+        '#DisplayAILink',
+        '#DisplayBraineumVerseLink',
+        '#DisplayDeFiLink',
+        '#DisplayTokenLink',
+        '#DisplayNFTLink',
+        '#DisplayGameFiLink',
+        '#DisplayCountryLink',
+        '#DisplayMyStatsLink',
+        '#DisplayHotIssuesLink',
+        '#DisplayVoteTradesLink'];
+
+    all_elements.forEach(e => {
+        //hideContent(e);
+        clearContent(e);
+    })
+    //showContent(element);
+}
+
+hideContent = (el) => {
+    let element = el;
+    if (document.querySelector(element) != null) {
+        document.querySelector(element).style.display = 'none';
+    }
+}
+
+showContent = (el) => {
+    let element = el;
+    if (document.querySelector(element) != null) {
+        document.querySelector(element).style.display = 'block';
+    }
+}
+
+clearContent = (el) => {
+    let element = el;
+    if (document.querySelector(element) != null) {
+        document.querySelector(element).innerHTML = "";
+    }
+}
+
+
+getTransactions = async () => {
+    console.log('get transactions clicked');
+    const options = { chain: "rinkeby", address: "0x0F2eF26a450B14f1700a6DF6eb5857d6942EE4d1..."};
+    const transactions = await Moralis.Web3API.account.getTransactions(options);
+
+    if (transactions.total > 0) {
+        let table = `
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Transactions</th>
+                        <th scope="col">Block Number</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Fee</th>
+                        <th scope="col">Value</th>
+                    </tr>
+                </thead>
+                <tbody id="theTransactions">
+                </tbody>
+                </table>
+                `
+        console.log(transactions);
+
+        document.querySelector('#tableOfTransactions').innerHTML = table;
+
+        transactions.results.forEach(t=> {
+            let content = `
+            <tr>
+                <td><a href='https://rinkeby.etherscan.io/tx/${t.hash}' target="_blank" rel="noopener noreferrer">${t.hash}</a></td>
+                <td><a href='https://rinkeby.etherscan.io/block/${t.block_number}' target="_blank" rel="noopener noreferrer">${t.block_number}</a></td>
+                <td>${millisecondsToTime(Date.parse(new Date()) - Date.parse(t.block_timestamp))}</td>
+                <td>${t.from_address == Moralis.User.current().get('ethAddress') ? 'Outgoing' : 'Incoming'}</td>
+                <td>${((t.gas * t.gas_price) / 1e18).toFixed(5)} ETH </td>
+                <td>${(t.value / 1e18).toFixed(5)} ETH</td>
+             </tr>            
+            `
+            theTransactions.innerHTML += content;
+        });
+
+    }
+}
+
+
+getBalances = async () => {
+    console.log('getBalances clicked');
+    //const options = { chain: "bsc", address: "0x...", order: "desc", from_block: "0" };
+    const ethBalance = await Moralis.Web3API.account.getNativeBalance();
+    const ropstenBalance = await Moralis.Web3API.account.getNativeBalance({chain : "ropsten"});
+    const rinkebyBalance = await Moralis.Web3API.account.getNativeBalance({chain : "rinkeby"});
+    //console.log((ethBalance.balance / 1e18).toFixed(5) + " ETH");
+    //console.log((ropstenBalance.balance / 1e18).toFixed(5) + " ETH");
+    //console.log((rinkebyBalance.balance / 1e18).toFixed(5) + " ETH");
+
+    let content = document.querySelector('#userBalances').innerHTML = `
+    <table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Chain</th>
+            <th scope="col">Balance</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Ether</th>
+            <td>${(ethBalance.balance / 1e18).toFixed(5) + " ETH"}</td>
+        </tr>
+        <tr>
+            <th>Ropsten</th>
+            <td>${(ropstenBalance.balance / 1e18).toFixed(5) + " ETH"}</td>
+        </tr>
+        <tr>
+            <th>Rinkeby</th>
+            <td>${(rinkebyBalance.balance / 1e18).toFixed(5) + " ETH"}</td>
+        </tr>
+    </tbody>
+    </table>  
+    `
+}
+
+getNFTs = async () => {
+    console.log('get NFTs clicked');
+    let nfts = await Moralis.Web3API.account.getNFTs({chain:'rinkeby'});
+    console.log(nfts);
+
+    let tableOfNFTs = document.querySelector("#tableOfNFTs");
+
+    if (nfts.result.length > 0) {
+        nfts.result.forEach(n => {
+            //console.log(JSON.parse(n.metadata));
+            let metadata = JSON.parse(n.metadata);
+            let content = `
+            <div class="card col-md-3">
+                <img src="${fixURL(metadata.image_url)}" class="card-img-top" height=300>
+                <div class="card-body">
+                    <h5 class="card-title">${metadata.name}</h5>
+                    <p class="card-text">${metadata.description}</p>
+                </div>
+            </div>
+            `
+            tableOfNFTs.innerHTML += content;
+        })
+
+    }
+}
+
+fixURL = (url) => {
+    if (url.startsWidth("ipfs")) {
+        return "https://ipfs.moralss.io:2053/ipfs/" + url.split("https://ipfs").slice(-1);
+    }
+    else {
+        return url + "?format=json";
+    }
+
+}
+
+millisecondsToTime = (ms) => {
+    let minutes = Math.floor(ms / (1000 * 60));
+    let hours = Math.floor(ms / (1000 * 60 * 60));
+    let days = Math.floor(ms / (1000 * 60 * 60 * 24));
+
+    if (days < 1) {
+        if (hours < 1)  {
+            if (minutes < 1) {
+                return `less than a minute ago`;
+            } return `${minutes} minute(s) ago`;
+        } return `${hours} hour(s) ago`;
+    } return `${days} day(s) ago`;
+}
+
+if (document.querySelector('#get-balances-link') != null) {
+    document.querySelector('#get-balances-link').onclick = getBalances;
+}
+
+if (document.querySelector('#get-nfts-link') != null) {
+    document.querySelector('#get-nfts-link').onclick = getNFTs;
+}
+
+*/
+
+=====
+From display Genesis
+       // getBalance
+    //const ethBalance = await Moralis.Web3API.account.getNativeBalance();
+    //const ropstenBalance = await Moralis.Web3API.account.getNativeBalance({chain : "ropsten"});
+    //const rinkebyBalance = await Moralis.Web3API.account.getNativeBalance({chain : "rinkeby"});
+    //console.log((ethBalance.balance / 1e18).toFixed(5) + " ETH");
+    //console.log((ropstenBalance.balance / 1e18).toFixed(5) + " ETH");
+
+ //   const options = { chain: 'rinkeby', address: '0x2Cc159Ad24C4a5777C6205ef6601c92bd8332261' }
+//  const rinkebyBalance = await Moralis.Web3API.account.getTokenBalances(options);
+ //   console.log((rinkebyBalance.balance / 1e18).toFixed(5) + " ETH");
+ //   console.log(rinkebyBalance.balance);
+
+ =====
+ From DisplayBraineumStashDAO
+
+  //   const options = { chain: 'rinkeby', address: '0x4b93f9711CA45B32029e3750e42cd0DD63adD3f1' }
+//  const rinkebyBalance = await Moralis.Web3API.account.getTokenBalances(options);
+ //   console.log((rinkebyBalance.balance / 1e18).toFixed(5) + " ETH");
+ //   console.log(rinkebyBalance.balance);
+
+ ====
+
+ From displayBraineumGalacticDao
+
+ //const options = { chain: 'rinkeby', address: '0x6E33d7d875C21D37283ABC13F53195C9428B26d3' }
+    //const rinkebyBalance = await Moralis.Web3API.account.getTokenBalances(options);
+
+====
+
+From displayBraineumVerse
+
+ //   const options = { chain: 'rinkeby', address: '0x2b580473de790072744f548b07c0b4a75b96e421' }
+ //   const rinkebyBalance = await Moralis.Web3API.account.getTokenBalances(options);
+ //   console.log((rinkebyBalance.balance / 1e18).toFixed(5) + " ETH");
+ //   console.log(rinkebyBalance.balance);
+
+
+ ===
+
+ From displayNFZillionaireDao
+
+  //   const options = { chain: 'rinkeby', address: '0x2b580473de790072744f548b07c0b4a75b96e421' }
+ //   const rinkebyBalance = await Moralis.Web3API.account.getTokenBalances(options);
+ //   console.log((rinkebyBalance.balance / 1e18).toFixed(5) + " ETH");
+ //   console.log(rinkebyBalance.balance);
+
+
+ ===
+
+ From displayShuttleXFinanceDao
+
+
+ //   const options = { chain: 'rinkeby', address: '0x2b580473de790072744f548b07c0b4a75b96e421' }
+ //   const rinkebyBalance = await Moralis.Web3API.account.getTokenBalances(options);
+ //   console.log((rinkebyBalance.balance / 1e18).toFixed(5) + " ETH");
+ //   console.log(rinkebyBalance.balance);
+
+
+ ===
+
+From displayBraineumVCDAO
+
+ //   const options = { chain: 'rinkeby', address: '0xea9Fc8F95Ffc32d48eb3141387Ee2c3e8F6e91b6' }
+ //   const rinkebyBalance = await Moralis.Web3API.account.getTokenBalances(options);
+ //   console.log((rinkebyBalance.balance / 1e18).toFixed(5) + " ETH");
+ //   console.log(rinkebyBalance.balance);
+
+
+ ==============================================
+ Dashboard.html
+
+From: after AIDAO
+
+ <!--
+<li class="nav-item">
+  <a id="display-country-link" class="nav-link" href="#">
+    <span data-feather=""></span>
+   CountryDAO
+  </a>
+</li>
+-->
+
+<!--
+
+            <li class="nav-item">
+              <a id="display-mystats-link" class="nav-link" href="#">
+                <span data-feather=""></span>
+                My Stats
+              </a>
+            </li>
+            <li class="nav-item">
+              <a id="display-hotissues-link" class="nav-link" href="#">
+                <span data-feather=""></span>
+                Hot Issuues
+              </a>
+            </li>
+            <li class="nav-item">
+              <a id="display-votetrades-link" class="nav-link" href="#">
+                <span data-feather=""></span>
+                Vote Trades
+              </a>
+            </li>
+ -->
